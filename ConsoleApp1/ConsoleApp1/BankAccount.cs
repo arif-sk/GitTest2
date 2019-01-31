@@ -11,5 +11,11 @@ namespace ConsoleApp1
         public string AccountNo { get; set; }
         public string AccountsName { get; set; }
         public string AccountType { get; set; }
+        public double Balance { get; set; }
+
+        public virtual double CalculateInterest()
+        {
+            
+        }
     }
 }
